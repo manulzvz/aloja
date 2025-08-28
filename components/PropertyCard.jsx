@@ -41,7 +41,7 @@ const PropertyCard = ({ property }) => {
 
         <div className="flex justify-center gap-4 text-gray-500 mb-4">
           <p>
-            <FaBed /> {property.beds}{" "}
+            <FaBed className="md:hidden lg:inline" /> {property.beds}{" "}
             <span className="md:hidden lg:inline">Beds</span>
           </p>
           <p>
