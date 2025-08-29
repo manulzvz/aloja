@@ -12,9 +12,13 @@ export const metadata = {
 const MainLayout = ({ children }) => {
   return (
     <AuthProvider>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
+      <html lang="">
+        <body>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </body>
+      </html>
     </AuthProvider>
   );
 };
